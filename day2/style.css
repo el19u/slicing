@@ -1,0 +1,27 @@
+.box {
+  width: 900px;
+  /* background-color: #ccc; */
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item {
+  width: 280px;
+  margin: 10px;
+  /* background-color: red; */
+  text-align: center;
+}
+
+.item h1 {
+  color: red;
+  font-size: 20px;
+}
+
+.item h1:hover {
+  color: blue;
+}
+
+.item img {
+  border-radius: 50%;
+}
