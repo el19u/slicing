@@ -1,0 +1,31 @@
+.box {
+  width: 900px;
+  /* background-color: #ccc; */
+  height: 180px;
+  display: flex;
+  margin: auto;
+  border: 1px solid black;
+  /* border-style: 1px groove; */
+  border-radius: 15px;
+  text-align: center;
+  align-items: center;
+}
+
+.item {
+  width: 300px;
+
+  /* background-color: red; */
+}
+
+.item + .item {
+  border-left: 1px solid black;
+}
+
+.point {
+  font-size: 24px;
+}
+
+.point span {
+  font-size: 36px;
+  text-shadow: 1px 1px 1px pink;
+}

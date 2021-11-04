@@ -1,0 +1,31 @@
+.container {
+  /* width: 600px; */
+  /* height: 300px; */
+  display: flex;
+  background-color: #ccc;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.pic {
+  /* height: 120px;
+  width: 100px; */
+  width: 50%;
+  background-color: red;
+}
+
+.pic img {
+  width: 100%;
+  display: block;
+}
+
+.txt {
+  width: 50%;
+  /* height: 100px;
+  width: 100px; */
+  background-color: blue;
+}
+
+.txt h2 {
+  font-size: 18px;
+}

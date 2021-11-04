@@ -1,0 +1,26 @@
+.flex {
+  width: 960px;
+  height: 760px;
+  background-color: #aaa;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: end;
+  align-content: end;
+  align-items: center;
+}
+
+.item {
+  width: 160px;
+  height: 160px;
+  background-color: #ac0;
+  margin: 4px;
+  font-size: 50px;
+}
+
+.item:first-child {
+  height: 300px;
+}
+.item:last-child {
+  height: 300px;
+}

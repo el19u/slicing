@@ -1,0 +1,19 @@
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
+}
+
+.card {
+  width: 400px;
+  background-color: rgb(127, 127, 151);
+}
+
+.box img {
+  background-color: #ccc;
+  display: block;
+}
+
+.box h2 {
+  display: inline;
+}

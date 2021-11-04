@@ -1,0 +1,15 @@
+.wrap {
+  width: 960px;
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.item {
+  width: 200px;
+  height: 200px;
+  background-color: #fa0;
+  margin: 10px;
+  font-size: 40px;
+}

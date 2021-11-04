@@ -1,0 +1,12 @@
+.wrap {
+  width: 960px;
+  display: flex;
+  margin: auto;
+}
+
+.odd {
+  flex-direction: row-reverse;
+}
+
+.wrap img {
+}

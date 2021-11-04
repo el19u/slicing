@@ -1,0 +1,7 @@
+.wrap {
+  width: 960px;
+  /* background-color: #ccc; */
+  display: flex;
+  margin: auto;
+  text-align: center;
+}
