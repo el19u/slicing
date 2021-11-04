@@ -1,0 +1,27 @@
+nav {
+  display: flex;
+}
+
+a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+a:nth-child(1) {
+  margin-right: auto;
+}
+
+a::after {
+  content: "";
+  height: 2px;
+  width: 0%;
+  background-color: red;
+  transition: 0.3s;
+}
+
+a:hover::after {
+  width: 100%;
+}
