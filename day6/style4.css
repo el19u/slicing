@@ -1,0 +1,25 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: #00f;
+  color: #fff;
+  font-size: 50px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.pp {
+  color: red;
+}
+
+.a,
+.b,
+.c {
+  padding: 30px;
+  border: 10px solid red;
+}
+
+.c {
+  position: relative;
+}

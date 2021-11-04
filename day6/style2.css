@@ -1,0 +1,29 @@
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  background-color: #aaa;
+  font-size: 20px;
+}
+
+.box18 {
+  background-color: red;
+  position: relative;
+  margin: -50px;
+  left: 250px;
+  top: 300px;
+}
+
+.box19 {
+  position: relative;
+  z-index: 1;
+}
+
+.box21 {
+  z-index: 1;
+}
