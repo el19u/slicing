@@ -1,0 +1,36 @@
+.group {
+  width: 960px;
+  margin: auto;
+}
+
+.title-group {
+  width: 320px;
+  background-color: #f00;
+  color: #fff;
+}
+
+.title-group .txt {
+  background-color: #000;
+}
+
+.pic-group {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pic-group .cover {
+  width: 100%;
+}
+
+.pic-group .cover img {
+  width: 100%;
+  font-variant: top;
+}
+
+.pic-group .btn {
+  width: 80px;
+  height: 50px;
+  background-color: #f00;
+  font-size: 0px;
+}

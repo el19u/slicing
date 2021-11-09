@@ -1,0 +1,12 @@
+.list {
+}
+
+.list div {
+  background-color: #ccc;
+  margin-bottom: 10px;
+  padding-left: 2em;
+  background-image: linear-gradient(0deg, red 0%, red 100%);
+  background-repeat: no-repeat;
+  background-size: 10px 10px;
+  background-position: 10px 7px;
+}

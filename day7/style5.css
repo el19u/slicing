@@ -1,0 +1,19 @@
+.wrap {
+  /* width: 960px; */
+  background-color: #ccc;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  /* width: 290px; */
+  width: 30.2083333%;
+  height: 200px;
+  background-color: pink;
+  margin: 11px 1.5625%;
+}
+
+.item img {
+  width: 100%;
+}
