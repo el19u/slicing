@@ -1,0 +1,11 @@
+.box {
+  width: 50%;
+  background-color: #aaa;
+  aspect-ratio: 560/315;
+}
+
+.box iframe {
+  width: 100%;
+  height: 100%;
+  vertical-align: auto;
+}

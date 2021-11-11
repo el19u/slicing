@@ -1,0 +1,74 @@
+:root {
+  --p-col-gap: 15px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 var(--p-col-gap);
+  box-sizing: border-box;
+}
+
+.pic img {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: calc(var(--p-col-gap) * -1);
+  margin-right: calc(var(--p-col-gap) * -1);
+}
+
+[class*="col-"] {
+  box-sizing: border-box;
+  padding: 0 var(--p-col-gap);
+}
+
+.col-1 {
+  width: 8.333333%;
+}
+
+.col-2 {
+  width: 16.666666%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.333333%;
+}
+
+.col-5 {
+  width: 41.6666666%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.333333%;
+}
+
+.col-8 {
+  width: 66.666666%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.333333%;
+}
+
+.col-11 {
+  width: 91.666666%;
+}
+
+.col-12 {
+  width: 100%;
+}
