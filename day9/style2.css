@@ -1,0 +1,41 @@
+.header {
+  height: 200px;
+  background-color: #ccc;
+}
+
+main {
+  display: flex;
+}
+
+.left {
+  width: 70%;
+  background-color: #fcc;
+}
+
+.right {
+  width: 25%;
+  margin-left: 5%;
+  background-color: #ccf;
+}
+
+.footer {
+  height: 1200px;
+  background-color: #ccc;
+}
+
+.a {
+  width: 90%;
+  height: 200px;
+  margin: auto;
+  background-color: #f00;
+  margin-bottom: 20px;
+  position: sticky;
+  top: 0;
+}
+.b {
+  width: 90%;
+  height: 200px;
+  margin: auto;
+  background-color: #fa0;
+  margin-bottom: 20px;
+}
